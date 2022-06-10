@@ -1,0 +1,64 @@
+{
+  "uid" : "b77bf67a521d3ae4",
+  "name" : "When I search temperature using 10010",
+  "fullName" : "Verify user can search temperature using <dataType> | zipcode | 10010 |.When I search temperature using 10010",
+  "historyId" : "4c7ac9fe9e6d4f229b5368dfd9b5b986",
+  "time" : {
+    "start" : 1653093811089,
+    "stop" : 1653093811089,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can search temperature using <dataType> | zipcode | 10010 |"
+  }, {
+    "name" : "thread",
+    "value" : "21518@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can search temperature using <dataType> | zipcode | 10010 |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can search temperature using <dataType> | zipcode | 10010 |"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I search temperature using 10010"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can search temperature using <dataType> | zipcode | 10010 |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b77bf67a521d3ae4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "bd5b17c3ef7c723b",
+  "name" : "Given I am on facebook landing page",
+  "fullName" : "User cannot submit form without entering all mandatory field.Given I am on facebook landing page",
+  "historyId" : "b6ab27a8770f90a4e61934f4eed88afa",
+  "time" : {
+    "start" : 1653523415411,
+    "stop" : 1653523415411,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "testClass",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on facebook landing page"
+  }, {
+    "name" : "package",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd5b17c3ef7c723b.json",
+  "parameterValues" : [ ]
+}

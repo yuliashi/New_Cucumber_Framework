@@ -1,0 +1,114 @@
+{
+  "total" : 13,
+  "items" : [ {
+    "uid" : "ba7190ae5315cd595e9ad207ee14b179",
+    "name" : "Verify user cannot login with invalid credentials | $%^&*( | abcd@1234 |",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "3a40c7e4e17e1b15164f13263fa4c41c",
+    "name" : "Verify user cannot login with invalid credentials | var@gmail.com | valkdfjklsdhfkljsdhf;s@1234 |",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "55b06231e61215cd1dcbd3b689f17948",
+    "name" : "Verify user cannot login with invalid credentials | var@test.com | abcdNoPwd |",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "625f070d9ddbc4ef70df7cac9b89330c",
+    "name" : "Verify customer is deleted msg is displayed on guru99",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "2eda855b7080dad4a893709276db372d",
+    "name" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d2f1e434c6a6dca6e185e345ce282af9",
+    "name" : "Verify user cannot login with empty credentials",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6b23262ad466d73e083ea9ded00fea8b",
+    "name" : "Verify user can login with valid credentials",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "417540ed590f37545ca88ff7bdc09630",
+    "name" : "Verify user can search temperature using <dataType> | zipcode | 10010 |",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "cefde6e836147a804db72a881052d366",
+    "name" : "Verify user can search temperature using <dataType> | country name | Brazil |",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "dbe4ef57198b820007a8b018c1252067",
+    "name" : "User cannot submit form without entering all mandatory field",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

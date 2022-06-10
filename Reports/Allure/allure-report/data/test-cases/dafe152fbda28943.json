@@ -1,0 +1,64 @@
+{
+  "uid" : "dafe152fbda28943",
+  "name" : "Given I am on darksky landing page",
+  "fullName" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |.Given I am on darksky landing page",
+  "historyId" : "490c3e4780d588d1f46dd572fbfa3de6",
+  "time" : {
+    "start" : 1653093825665,
+    "stop" : 1653093825666,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "thread",
+    "value" : "21518@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on darksky landing page"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dafe152fbda28943.json",
+  "parameterValues" : [ ]
+}

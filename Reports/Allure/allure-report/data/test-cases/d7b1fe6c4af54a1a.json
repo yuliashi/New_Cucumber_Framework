@@ -1,0 +1,64 @@
+{
+  "uid" : "d7b1fe6c4af54a1a",
+  "name" : "And I click on login button",
+  "fullName" : "Verify user can login with valid credentials.And I click on login button",
+  "historyId" : "8f5377afb63cbaae0ae50d5e866a058d",
+  "time" : {
+    "start" : 1653523343758,
+    "stop" : 1653523343758,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on login button"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7b1fe6c4af54a1a.json",
+  "parameterValues" : [ ]
+}

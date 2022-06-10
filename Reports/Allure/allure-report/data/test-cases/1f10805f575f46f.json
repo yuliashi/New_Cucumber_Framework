@@ -1,0 +1,64 @@
+{
+  "uid" : "1f10805f575f46f",
+  "name" : "When I enter validUser@gmail.com in login username",
+  "fullName" : "Verify user can login with valid credentials.When I enter validUser@gmail.com in login username",
+  "historyId" : "e630157d8fcd8941688612c5f692504f",
+  "time" : {
+    "start" : 1653523338408,
+    "stop" : 1653523338408,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter validUser@gmail.com in login username"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f10805f575f46f.json",
+  "parameterValues" : [ ]
+}

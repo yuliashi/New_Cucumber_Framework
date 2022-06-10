@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1653523401758" stop="1653523402279" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify no gender is selected on Sign Up form</name>
+    <title>Verify no gender is selected on Sign Up form</title>
+    <test-cases>
+        <test-case start="1653523401763" stop="1653523401763" status="passed">
+            <name>Given I am on facebook landing page</name>
+            <title>Given I am on facebook landing page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523401765" stop="1653523401765" status="pending">
+            <name>When I click on Create New Account button</name>
+            <title>When I click on Create New Account button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523401767" stop="1653523401767" status="pending">
+            <name>Then I verify no gender is selected</name>
+            <title>Then I verify no gender is selected</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523402279" stop="1653523402279" status="pending">
+            <name>Scenario: Verify no gender is selected on Sign Up form</name>
+            <title>Scenario: Verify no gender is selected on Sign Up form</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify no gender is selected on Sign Up form"/>
+        <label name="feature" value="Facebook Sign Up"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

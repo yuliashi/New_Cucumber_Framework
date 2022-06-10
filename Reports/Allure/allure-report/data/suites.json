@@ -1,0 +1,785 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Verify user can search temperature using <dataType> | zipcode | 10010 |",
+    "children" : [ {
+      "name" : "Given I am on darksky landing page",
+      "uid" : "dbd2a999f7d2e454",
+      "parentUid" : "417540ed590f37545ca88ff7bdc09630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523227916,
+        "stop" : 1653523227920,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I search temperature using 10010",
+      "uid" : "aa9e772655fecf61",
+      "parentUid" : "417540ed590f37545ca88ff7bdc09630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523231622,
+        "stop" : 1653523231622,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify forecast is displayed for zipcode",
+      "uid" : "23a772e74403b494",
+      "parentUid" : "417540ed590f37545ca88ff7bdc09630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523232395,
+        "stop" : 1653523232395,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "417540ed590f37545ca88ff7bdc09630"
+  }, {
+    "name" : "Verify user can search temperature using <dataType> | country name | Brazil |",
+    "children" : [ {
+      "name" : "Given I am on darksky landing page",
+      "uid" : "ca66506acabe150f",
+      "parentUid" : "cefde6e836147a804db72a881052d366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523245949,
+        "stop" : 1653523245949,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I search temperature using Brazil",
+      "uid" : "a4f3aa297a01fab4",
+      "parentUid" : "cefde6e836147a804db72a881052d366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523249024,
+        "stop" : 1653523249024,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify forecast is displayed for country name",
+      "uid" : "4af58170ced9ca2c",
+      "parentUid" : "cefde6e836147a804db72a881052d366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523249520,
+        "stop" : 1653523249520,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cefde6e836147a804db72a881052d366"
+  }, {
+    "name" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |",
+    "children" : [ {
+      "name" : "Given I am on darksky landing page",
+      "uid" : "7aa91fc5a33c8d1a",
+      "parentUid" : "2eda855b7080dad4a893709276db372d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523262479,
+        "stop" : 1653523262479,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I search temperature using 98 11th Ave, New York, NY",
+      "uid" : "11eca8b6ab9df79b",
+      "parentUid" : "2eda855b7080dad4a893709276db372d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523264025,
+        "stop" : 1653523264025,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify forecast is displayed for full address",
+      "uid" : "a9bf6af012b6be1b",
+      "parentUid" : "2eda855b7080dad4a893709276db372d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653523265722,
+        "stop" : 1653523265738,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2eda855b7080dad4a893709276db372d"
+  }, {
+    "name" : "Verify user cannot login with invalid credentials | $%^&*( | abcd@1234 |",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "5f8051942d58618e",
+      "parentUid" : "ba7190ae5315cd595e9ad207ee14b179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523278846,
+        "stop" : 1653523278846,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I enter $%^&*( in login username",
+      "uid" : "bb2c9954f596d8e9",
+      "parentUid" : "ba7190ae5315cd595e9ad207ee14b179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523279326,
+        "stop" : 1653523279326,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I enter abcd@1234 in login password",
+      "uid" : "10aaec650531ae0f",
+      "parentUid" : "ba7190ae5315cd595e9ad207ee14b179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523279710,
+        "stop" : 1653523279710,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I click on login button",
+      "uid" : "6ac983871a49b77a",
+      "parentUid" : "ba7190ae5315cd595e9ad207ee14b179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523280932,
+        "stop" : 1653523280932,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify error is displayed",
+      "uid" : "fb01462cd426b9cb",
+      "parentUid" : "ba7190ae5315cd595e9ad207ee14b179",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653523281534,
+        "stop" : 1653523281536,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ba7190ae5315cd595e9ad207ee14b179"
+  }, {
+    "name" : "Verify user cannot login with invalid credentials | var@gmail.com | valkdfjklsdhfkljsdhf;s@1234 |",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "ef0a80f91ff3637f",
+      "parentUid" : "3a40c7e4e17e1b15164f13263fa4c41c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523294692,
+        "stop" : 1653523294693,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I enter var@gmail.com in login username",
+      "uid" : "60fc38d954ec11e7",
+      "parentUid" : "3a40c7e4e17e1b15164f13263fa4c41c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523295309,
+        "stop" : 1653523295309,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I enter valkdfjklsdhfkljsdhf;s@1234 in login password",
+      "uid" : "79e2d65303801f81",
+      "parentUid" : "3a40c7e4e17e1b15164f13263fa4c41c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523295893,
+        "stop" : 1653523295893,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I click on login button",
+      "uid" : "9c0427f58f2ad3f0",
+      "parentUid" : "3a40c7e4e17e1b15164f13263fa4c41c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523301693,
+        "stop" : 1653523301693,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify error is displayed",
+      "uid" : "efde94d35e0ed8ad",
+      "parentUid" : "3a40c7e4e17e1b15164f13263fa4c41c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653523302299,
+        "stop" : 1653523302301,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3a40c7e4e17e1b15164f13263fa4c41c"
+  }, {
+    "name" : "Verify user cannot login with invalid credentials | var@test.com | abcdNoPwd |",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "aa41ce47cf39d7ba",
+      "parentUid" : "55b06231e61215cd1dcbd3b689f17948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523314990,
+        "stop" : 1653523314990,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I enter var@test.com in login username",
+      "uid" : "ea524e0b79690895",
+      "parentUid" : "55b06231e61215cd1dcbd3b689f17948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523315542,
+        "stop" : 1653523315542,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I enter abcdNoPwd in login password",
+      "uid" : "e2efad3fd0ed223f",
+      "parentUid" : "55b06231e61215cd1dcbd3b689f17948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523316208,
+        "stop" : 1653523316208,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I click on login button",
+      "uid" : "2501b67368d7dad7",
+      "parentUid" : "55b06231e61215cd1dcbd3b689f17948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523322399,
+        "stop" : 1653523322399,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify error is displayed",
+      "uid" : "771f0a0a46f5b483",
+      "parentUid" : "55b06231e61215cd1dcbd3b689f17948",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653523323101,
+        "stop" : 1653523323102,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "55b06231e61215cd1dcbd3b689f17948"
+  }, {
+    "name" : "Verify user can login with valid credentials",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "e1325906f652decf",
+      "parentUid" : "6b23262ad466d73e083ea9ded00fea8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523337686,
+        "stop" : 1653523337686,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I enter validUser@gmail.com in login username",
+      "uid" : "1f10805f575f46f",
+      "parentUid" : "6b23262ad466d73e083ea9ded00fea8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523338408,
+        "stop" : 1653523338408,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I enter validPass@1234 in login password",
+      "uid" : "a20d70435456fa2d",
+      "parentUid" : "6b23262ad466d73e083ea9ded00fea8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523339125,
+        "stop" : 1653523339125,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I click on login button",
+      "uid" : "d7b1fe6c4af54a1a",
+      "parentUid" : "6b23262ad466d73e083ea9ded00fea8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523343758,
+        "stop" : 1653523343758,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify Facebook Homepage is displayed",
+      "uid" : "b4e0cbdba26dcc15",
+      "parentUid" : "6b23262ad466d73e083ea9ded00fea8b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523343762,
+        "stop" : 1653523343763,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scenario: Verify user can login with valid credentials",
+      "uid" : "e2ad4b7ad282defd",
+      "parentUid" : "6b23262ad466d73e083ea9ded00fea8b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523344267,
+        "stop" : 1653523344267,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6b23262ad466d73e083ea9ded00fea8b"
+  }, {
+    "name" : "Verify user cannot login with empty credentials",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "733af4b199941ca3",
+      "parentUid" : "d2f1e434c6a6dca6e185e345ce282af9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523356947,
+        "stop" : 1653523356947,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I click on login button",
+      "uid" : "8e6d1dbfd5f85b2d",
+      "parentUid" : "d2f1e434c6a6dca6e185e345ce282af9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523358341,
+        "stop" : 1653523358341,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify error is displayed",
+      "uid" : "3b8aa3fedaf05a9f",
+      "parentUid" : "d2f1e434c6a6dca6e185e345ce282af9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653523359260,
+        "stop" : 1653523359261,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d2f1e434c6a6dca6e185e345ce282af9"
+  }, {
+    "name" : "Verify user can sign up",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "b0914992e090df3c",
+      "parentUid" : "198271fdc2c52f613fe37351b7c58793",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523373533,
+        "stop" : 1653523373533,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I click on Create New Account button",
+      "uid" : "6cde9714a9370cdd",
+      "parentUid" : "198271fdc2c52f613fe37351b7c58793",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523373536,
+        "stop" : 1653523373536,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I submit Sign up form",
+      "uid" : "de2af0cd63803b0b",
+      "parentUid" : "198271fdc2c52f613fe37351b7c58793",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523373538,
+        "stop" : 1653523373538,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify account is created",
+      "uid" : "c696858f8962b8d7",
+      "parentUid" : "198271fdc2c52f613fe37351b7c58793",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523373539,
+        "stop" : 1653523373539,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scenario: Verify user can sign up",
+      "uid" : "cad37265958d2718",
+      "parentUid" : "198271fdc2c52f613fe37351b7c58793",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523373863,
+        "stop" : 1653523373863,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "198271fdc2c52f613fe37351b7c58793"
+  }, {
+    "name" : "Verify dob on sign up is current date",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "816e501bd6d7ac25",
+      "parentUid" : "e5820686828baf7dbc45fef96630dd58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523388399,
+        "stop" : 1653523388399,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I click on Create New Account button",
+      "uid" : "f9beb702a504ca1",
+      "parentUid" : "e5820686828baf7dbc45fef96630dd58",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523388403,
+        "stop" : 1653523388403,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify dob is current date",
+      "uid" : "bad256534cabd19d",
+      "parentUid" : "e5820686828baf7dbc45fef96630dd58",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523388406,
+        "stop" : 1653523388406,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scenario: Verify dob on sign up is current date",
+      "uid" : "345554152276b9b4",
+      "parentUid" : "e5820686828baf7dbc45fef96630dd58",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523388578,
+        "stop" : 1653523388578,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e5820686828baf7dbc45fef96630dd58"
+  }, {
+    "name" : "Verify no gender is selected on Sign Up form",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "d304f902bc2b1eda",
+      "parentUid" : "d64e35cd76530ec9382bc2eff4d27851",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523401763,
+        "stop" : 1653523401763,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I click on Create New Account button",
+      "uid" : "9f0455bda606cefa",
+      "parentUid" : "d64e35cd76530ec9382bc2eff4d27851",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523401765,
+        "stop" : 1653523401765,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify no gender is selected",
+      "uid" : "7187049f36f11f3f",
+      "parentUid" : "d64e35cd76530ec9382bc2eff4d27851",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523401767,
+        "stop" : 1653523401767,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scenario: Verify no gender is selected on Sign Up form",
+      "uid" : "7a0419d741af6e7b",
+      "parentUid" : "d64e35cd76530ec9382bc2eff4d27851",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523402279,
+        "stop" : 1653523402279,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d64e35cd76530ec9382bc2eff4d27851"
+  }, {
+    "name" : "User cannot submit form without entering all mandatory field",
+    "children" : [ {
+      "name" : "Given I am on facebook landing page",
+      "uid" : "bd5b17c3ef7c723b",
+      "parentUid" : "dbe4ef57198b820007a8b018c1252067",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523415411,
+        "stop" : 1653523415411,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I click on Create New Account button",
+      "uid" : "5045b97061839dca",
+      "parentUid" : "dbe4ef57198b820007a8b018c1252067",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523415413,
+        "stop" : 1653523415413,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I fill form except gender",
+      "uid" : "ab4a34e48f0089fc",
+      "parentUid" : "dbe4ef57198b820007a8b018c1252067",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523415416,
+        "stop" : 1653523415416,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I click on the submit button",
+      "uid" : "5503529f67b99ea",
+      "parentUid" : "dbe4ef57198b820007a8b018c1252067",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523415417,
+        "stop" : 1653523415417,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify error is displayed",
+      "uid" : "405d9604c1ee4dd1",
+      "parentUid" : "dbe4ef57198b820007a8b018c1252067",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523415421,
+        "stop" : 1653523415421,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Scenario: User cannot submit form without entering all mandatory field",
+      "uid" : "5f5b0aec6ca4a9f0",
+      "parentUid" : "dbe4ef57198b820007a8b018c1252067",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523416196,
+        "stop" : 1653523416196,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "dbe4ef57198b820007a8b018c1252067"
+  }, {
+    "name" : "Verify customer is deleted msg is displayed on guru99",
+    "children" : [ {
+      "name" : "Given I am on Guru landing page",
+      "uid" : "a7d14048cde5f659",
+      "parentUid" : "625f070d9ddbc4ef70df7cac9b89330c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523432419,
+        "stop" : 1653523432419,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "When I enter the customer id as 100",
+      "uid" : "98068494e3734c88",
+      "parentUid" : "625f070d9ddbc4ef70df7cac9b89330c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523433809,
+        "stop" : 1653523433809,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "And I click on Submit button",
+      "uid" : "2c2128311681783b",
+      "parentUid" : "625f070d9ddbc4ef70df7cac9b89330c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1653523434793,
+        "stop" : 1653523434795,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Then I verify 'Customer Successfully Delete!' is displayed",
+      "uid" : "36da728b0cc8e511",
+      "parentUid" : "625f070d9ddbc4ef70df7cac9b89330c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1653523434798,
+        "stop" : 1653523434798,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "625f070d9ddbc4ef70df7cac9b89330c"
+  } ]
+}

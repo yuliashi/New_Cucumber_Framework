@@ -1,0 +1,66 @@
+{
+  "uid" : "9f0455bda606cefa",
+  "name" : "When I click on Create New Account button",
+  "fullName" : "Verify no gender is selected on Sign Up form.When I click on Create New Account button",
+  "historyId" : "6bfad97a4dc9c60902b1c24c9e56a87d",
+  "time" : {
+    "start" : 1653523401765,
+    "stop" : 1653523401765,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on Create New Account button"
+  }, {
+    "name" : "package",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f0455bda606cefa.json",
+  "parameterValues" : [ ]
+}

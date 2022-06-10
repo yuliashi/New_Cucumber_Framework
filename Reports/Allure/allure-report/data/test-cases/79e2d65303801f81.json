@@ -1,0 +1,64 @@
+{
+  "uid" : "79e2d65303801f81",
+  "name" : "And I enter valkdfjklsdhfkljsdhf;s@1234 in login password",
+  "fullName" : "Verify user cannot login with invalid credentials | var@gmail.com | valkdfjklsdhfkljsdhf;s@1234 |.And I enter valkdfjklsdhfkljsdhf;s@1234 in login password",
+  "historyId" : "817ceb8b65cf7cc867bb4fb198ae7ff5",
+  "time" : {
+    "start" : 1653523295893,
+    "stop" : 1653523295893,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user cannot login with invalid credentials | var@gmail.com | valkdfjklsdhfkljsdhf;s@1234 |"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user cannot login with invalid credentials | var@gmail.com | valkdfjklsdhfkljsdhf;s@1234 |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user cannot login with invalid credentials | var@gmail.com | valkdfjklsdhfkljsdhf;s@1234 |"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I enter valkdfjklsdhfkljsdhf;s@1234 in login password"
+  }, {
+    "name" : "package",
+    "value" : "Verify user cannot login with invalid credentials | var@gmail.com | valkdfjklsdhfkljsdhf;s@1234 |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79e2d65303801f81.json",
+  "parameterValues" : [ ]
+}

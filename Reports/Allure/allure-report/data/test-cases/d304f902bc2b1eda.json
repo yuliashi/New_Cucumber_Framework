@@ -1,0 +1,64 @@
+{
+  "uid" : "d304f902bc2b1eda",
+  "name" : "Given I am on facebook landing page",
+  "fullName" : "Verify no gender is selected on Sign Up form.Given I am on facebook landing page",
+  "historyId" : "128449bfa9324595f73f0997bd27d63a",
+  "time" : {
+    "start" : 1653523401763,
+    "stop" : 1653523401763,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on facebook landing page"
+  }, {
+    "name" : "package",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d304f902bc2b1eda.json",
+  "parameterValues" : [ ]
+}

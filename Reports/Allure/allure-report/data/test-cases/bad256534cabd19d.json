@@ -1,0 +1,66 @@
+{
+  "uid" : "bad256534cabd19d",
+  "name" : "Then I verify dob is current date",
+  "fullName" : "Verify dob on sign up is current date.Then I verify dob is current date",
+  "historyId" : "93459e3c0a6a82422d4b9da3e1b5a0f8",
+  "time" : {
+    "start" : 1653523388406,
+    "stop" : 1653523388406,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I verify dob is current date"
+  }, {
+    "name" : "package",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bad256534cabd19d.json",
+  "parameterValues" : [ ]
+}

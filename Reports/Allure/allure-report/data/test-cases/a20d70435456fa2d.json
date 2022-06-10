@@ -1,0 +1,64 @@
+{
+  "uid" : "a20d70435456fa2d",
+  "name" : "And I enter validPass@1234 in login password",
+  "fullName" : "Verify user can login with valid credentials.And I enter validPass@1234 in login password",
+  "historyId" : "1da5e9e74a6e55d29cfc139bf43b50b6",
+  "time" : {
+    "start" : 1653523339125,
+    "stop" : 1653523339125,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I enter validPass@1234 in login password"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a20d70435456fa2d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1095 @@
+{
+  "366c7811b082e80f7dfa80a587c9ad6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2501b67368d7dad7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523322399,
+        "stop" : 1653523322399,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a4eb38624ed7c7bdbe47ba92e2def40c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f5b0aec6ca4a9f0",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523416196,
+        "stop" : 1653523416196,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a13d45ac917a174a78205771143c79fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa41ce47cf39d7ba",
+      "status" : "passed",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.43.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofile9kAcNx, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=6536.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd6e40f8d\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523314990,
+        "stop" : 1653523314990,
+        "duration" : 0
+      }
+    } ]
+  },
+  "fc1b355c64aec684f2e96377c63ba9b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1325906f652decf",
+      "status" : "passed",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.53.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilep3X3fN, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2436.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX63d7676f\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523337686,
+        "stop" : 1653523337686,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4c7ac9fe9e6d4f229b5368dfd9b5b986" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa9e772655fecf61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523231622,
+        "stop" : 1653523231622,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cea0f3d7a0548d93fe83b4a631307b22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "733af4b199941ca3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523356947,
+        "stop" : 1653523356947,
+        "duration" : 0
+      }
+    } ]
+  },
+  "fc5b8cba3da4a5a590b95b0c5ab876cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "816e501bd6d7ac25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523388399,
+        "stop" : 1653523388399,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a36be3be347714d01f9c26b9108351d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5503529f67b99ea",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523415417,
+        "stop" : 1653523415417,
+        "duration" : 0
+      }
+    } ]
+  },
+  "69fed231cf1a2f20f201530ea0ae19c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "771f0a0a46f5b483",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.53.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilep3X3fN, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2436.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX63d7676f\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523323101,
+        "stop" : 1653523323102,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2e7134f04b15e4830b81d933fd3cfb61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9bf6af012b6be1b",
+      "status" : "broken",
+      "statusDetails" : "StaleElementReferenceException: The element reference of <span class=\"summary swap\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.37.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilefu5PVA, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=1068.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd286f203\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523265722,
+        "stop" : 1653523265738,
+        "duration" : 16
+      }
+    } ]
+  },
+  "ee3b762484901f3cc356de01028ca001" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "345554152276b9b4",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523388578,
+        "stop" : 1653523388578,
+        "duration" : 0
+      }
+    } ]
+  },
+  "28c6cf75eb9a874f695e39490d110d22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23a772e74403b494",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523232395,
+        "stop" : 1653523232395,
+        "duration" : 0
+      }
+    } ]
+  },
+  "631722b17a2544a82fd4d59f9eba21b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c2128311681783b",
+      "status" : "broken",
+      "statusDetails" : "WebDriverException: Element <input name=\"submit\" type=\"submit\"> is not clickable at point (483,669) because another element <iframe id=\"ccpa-consent-notice\" class=\"faktor-iframe-wrapper\" src=\"https://ccpa-manager.privacymanager.io/latest/index.html#/notice\"> obscures it\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.83.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofileycyeOv, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=6896.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX98253702\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523434793,
+        "stop" : 1653523434795,
+        "duration" : 2
+      }
+    } ]
+  },
+  "f25fd538abfd789ab48e785f477026b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98068494e3734c88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523433809,
+        "stop" : 1653523433809,
+        "duration" : 0
+      }
+    } ]
+  },
+  "83c916500dea342f7f3705d5d9dcc439" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e6d1dbfd5f85b2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523358341,
+        "stop" : 1653523358341,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6b742790fd5688b6b89a6433f112988f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efde94d35e0ed8ad",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.43.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofile9kAcNx, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=6536.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd6e40f8d\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523302299,
+        "stop" : 1653523302301,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e82d57c3a946502d130c1778bf188c9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4f3aa297a01fab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523249024,
+        "stop" : 1653523249024,
+        "duration" : 0
+      }
+    } ]
+  },
+  "966703009f264fb49a645a4d26f8c65b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9beb702a504ca1",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523388403,
+        "stop" : 1653523388403,
+        "duration" : 0
+      }
+    } ]
+  },
+  "65f0d681426221ecfdb5f0334087bc62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7187049f36f11f3f",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523401767,
+        "stop" : 1653523401767,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8f5377afb63cbaae0ae50d5e866a058d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d7b1fe6c4af54a1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523343758,
+        "stop" : 1653523343758,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4fe64d7e4f5ea9d6315ed99c81242ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb01462cd426b9cb",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.5.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofileCSYP36, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=4552.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX58dd7520\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523281534,
+        "stop" : 1653523281536,
+        "duration" : 2
+      }
+    } ]
+  },
+  "8803af932d3f5381eddf3452dbfea183" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60fc38d954ec11e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523295309,
+        "stop" : 1653523295309,
+        "duration" : 0
+      }
+    } ]
+  },
+  "86261adb45529853104819d5bacd76ac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab4a34e48f0089fc",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523415416,
+        "stop" : 1653523415416,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6bfad97a4dc9c60902b1c24c9e56a87d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f0455bda606cefa",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523401765,
+        "stop" : 1653523401765,
+        "duration" : 0
+      }
+    } ]
+  },
+  "405cc2fb8c57a5f070d823ecb2727687" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef0a80f91ff3637f",
+      "status" : "passed",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.5.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofileCSYP36, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=4552.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX58dd7520\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523294692,
+        "stop" : 1653523294693,
+        "duration" : 1
+      }
+    } ]
+  },
+  "93268c7f0544222e9f4a65277e6e6371" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2efad3fd0ed223f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523316208,
+        "stop" : 1653523316208,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bccf7708c2dc864b426ea0fe5df78cf5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e2ad4b7ad282defd",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523344267,
+        "stop" : 1653523344267,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b6ab27a8770f90a4e61934f4eed88afa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd5b17c3ef7c723b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523415411,
+        "stop" : 1653523415411,
+        "duration" : 0
+      }
+    } ]
+  },
+  "240ad2f1939d9dffa1b4d99ff001a2ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ac983871a49b77a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523280932,
+        "stop" : 1653523280932,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d59cae16c6c29abf1dcc85d837009cbb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c696858f8962b8d7",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523373539,
+        "stop" : 1653523373539,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4f46dabf908b50ab6429a36d53287653" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "405d9604c1ee4dd1",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523415421,
+        "stop" : 1653523415421,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e50dfdefdc66352771b11e4ca496b28d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36da728b0cc8e511",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523434798,
+        "stop" : 1653523434798,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dcbbcf25b14cb21c19caab97bca5d483" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea524e0b79690895",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523315542,
+        "stop" : 1653523315542,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7444f68182a2aa8db9d16278b1989251" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5045b97061839dca",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523415413,
+        "stop" : 1653523415413,
+        "duration" : 0
+      }
+    } ]
+  },
+  "93459e3c0a6a82422d4b9da3e1b5a0f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bad256534cabd19d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523388406,
+        "stop" : 1653523388406,
+        "duration" : 0
+      }
+    } ]
+  },
+  "70aece029bb7199a9f77d6c4177bb921" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f8051942d58618e",
+      "status" : "passed",
+      "statusDetails" : "StaleElementReferenceException: The element reference of <span class=\"summary swap\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.37.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilefu5PVA, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=1068.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd286f203\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523278846,
+        "stop" : 1653523278846,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ac5cc9f3d16686f9e20d939abc95b17d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7d14048cde5f659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523432419,
+        "stop" : 1653523432419,
+        "duration" : 0
+      }
+    } ]
+  },
+  "817ceb8b65cf7cc867bb4fb198ae7ff5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79e2d65303801f81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523295893,
+        "stop" : 1653523295893,
+        "duration" : 0
+      }
+    } ]
+  },
+  "490c3e4780d588d1f46dd572fbfa3de6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7aa91fc5a33c8d1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523262479,
+        "stop" : 1653523262479,
+        "duration" : 0
+      }
+    } ]
+  },
+  "157b8d72248b8e67a02a09fe6ead4134" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4e0cbdba26dcc15",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523343762,
+        "stop" : 1653523343763,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cf5f23d89bf49cce142ebb2ef3e829ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c0427f58f2ad3f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523301693,
+        "stop" : 1653523301693,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6b60f524856cbb3890c784f91e1e697" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10aaec650531ae0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523279710,
+        "stop" : 1653523279710,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7d42b63513e62c4d65a0c59620ad7938" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4af58170ced9ca2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523249520,
+        "stop" : 1653523249520,
+        "duration" : 0
+      }
+    } ]
+  },
+  "eb02ef2814c3d5a41e4b8f37cf56a86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cad37265958d2718",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523373863,
+        "stop" : 1653523373863,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c8c8f04eba8844ed16185a4cb88980d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cde9714a9370cdd",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523373536,
+        "stop" : 1653523373536,
+        "duration" : 0
+      }
+    } ]
+  },
+  "602efe410622e70f1cbf8d535eefae48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbd2a999f7d2e454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523227916,
+        "stop" : 1653523227920,
+        "duration" : 4
+      }
+    } ]
+  },
+  "1da5e9e74a6e55d29cfc139bf43b50b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a20d70435456fa2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523339125,
+        "stop" : 1653523339125,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bf85fe23b6908b459c224d1e1821a9bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb2c9954f596d8e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523279326,
+        "stop" : 1653523279326,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8a880f9ab666b573d54fffe116543db3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11eca8b6ab9df79b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523264025,
+        "stop" : 1653523264025,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e630157d8fcd8941688612c5f692504f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f10805f575f46f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523338408,
+        "stop" : 1653523338408,
+        "duration" : 0
+      }
+    } ]
+  },
+  "66b5a29f0fa3c328c5db9126504f8691" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de2af0cd63803b0b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523373538,
+        "stop" : 1653523373538,
+        "duration" : 0
+      }
+    } ]
+  },
+  "250274b2aa863dec35eb03ea5a78b8fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b8aa3fedaf05a9f",
+      "status" : "broken",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.27.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilejx4H2b, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5364.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX8bef3694\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523359260,
+        "stop" : 1653523359261,
+        "duration" : 1
+      }
+    } ]
+  },
+  "e40caf5c4e415955f28ec0f7e0e06360" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0914992e090df3c",
+      "status" : "passed",
+      "statusDetails" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.27.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilejx4H2b, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5364.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX8bef3694\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "time" : {
+        "start" : 1653523373533,
+        "stop" : 1653523373533,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e7ba5adbb0a05fed735b024ae1b11b65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca66506acabe150f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523245949,
+        "stop" : 1653523245949,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f2c7d231e9434f6464cdfc5f589b4159" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a0419d741af6e7b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored (without reason)!",
+      "time" : {
+        "start" : 1653523402279,
+        "stop" : 1653523402279,
+        "duration" : 0
+      }
+    } ]
+  },
+  "128449bfa9324595f73f0997bd27d63a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d304f902bc2b1eda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653523401763,
+        "stop" : 1653523401763,
+        "duration" : 0
+      }
+    } ]
+  }
+}

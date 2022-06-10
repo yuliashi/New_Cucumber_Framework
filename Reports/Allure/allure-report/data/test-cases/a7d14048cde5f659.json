@@ -1,0 +1,64 @@
+{
+  "uid" : "a7d14048cde5f659",
+  "name" : "Given I am on Guru landing page",
+  "fullName" : "Verify customer is deleted msg is displayed on guru99.Given I am on Guru landing page",
+  "historyId" : "ac5cc9f3d16686f9e20d939abc95b17d",
+  "time" : {
+    "start" : 1653523432419,
+    "stop" : 1653523432419,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Other Automation scenarios"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on Guru landing page"
+  }, {
+    "name" : "package",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7d14048cde5f659.json",
+  "parameterValues" : [ ]
+}

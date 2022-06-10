@@ -1,0 +1,64 @@
+{
+  "uid" : "f5a3d47376bb2fd0",
+  "name" : "When I search temperature using Brazil",
+  "fullName" : "Verify user can search temperature using <dataType> | country name | Brazil |.When I search temperature using Brazil",
+  "historyId" : "e82d57c3a946502d130c1778bf188c9d",
+  "time" : {
+    "start" : 1653093819667,
+    "stop" : 1653093819667,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "thread",
+    "value" : "21518@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I search temperature using Brazil"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5a3d47376bb2fd0.json",
+  "parameterValues" : [ ]
+}

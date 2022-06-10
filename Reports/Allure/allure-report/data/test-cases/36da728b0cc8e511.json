@@ -1,0 +1,66 @@
+{
+  "uid" : "36da728b0cc8e511",
+  "name" : "Then I verify 'Customer Successfully Delete!' is displayed",
+  "fullName" : "Verify customer is deleted msg is displayed on guru99.Then I verify 'Customer Successfully Delete!' is displayed",
+  "historyId" : "e50dfdefdc66352771b11e4ca496b28d",
+  "time" : {
+    "start" : 1653523434798,
+    "stop" : 1653523434798,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Other Automation scenarios"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I verify 'Customer Successfully Delete!' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36da728b0cc8e511.json",
+  "parameterValues" : [ ]
+}

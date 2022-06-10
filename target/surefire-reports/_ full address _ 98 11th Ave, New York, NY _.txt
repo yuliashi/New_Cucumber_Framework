@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: | full address | 98 11th Ave, New York, NY |
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.883 sec - in | full address | 98 11th Ave, New York, NY |

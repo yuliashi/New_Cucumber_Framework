@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1653093818739" stop="1653093820932" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can search temperature using &lt;dataType&gt; | country name | Brazil |</name>
+    <title>Verify user can search temperature using &lt;dataType&gt; | country name | Brazil |</title>
+    <test-cases>
+        <test-case start="1653093818744" stop="1653093818744" status="passed">
+            <name>Given I am on darksky landing page</name>
+            <title>Given I am on darksky landing page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="21518@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653093819667" stop="1653093819667" status="passed">
+            <name>When I search temperature using Brazil</name>
+            <title>When I search temperature using Brazil</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="21518@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653093820714" stop="1653093820714" status="passed">
+            <name>Then I verify forecast is displayed for country name</name>
+            <title>Then I verify forecast is displayed for country name</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="21518@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can search temperature using &lt;dataType&gt; | country name | Brazil |"/>
+        <label name="feature" value="Search"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

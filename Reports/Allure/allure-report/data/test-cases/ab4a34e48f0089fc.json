@@ -1,0 +1,66 @@
+{
+  "uid" : "ab4a34e48f0089fc",
+  "name" : "And I fill form except gender",
+  "fullName" : "User cannot submit form without entering all mandatory field.And I fill form except gender",
+  "historyId" : "86261adb45529853104819d5bacd76ac",
+  "time" : {
+    "start" : 1653523415416,
+    "stop" : 1653523415416,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "testClass",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I fill form except gender"
+  }, {
+    "name" : "package",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab4a34e48f0089fc.json",
+  "parameterValues" : [ ]
+}

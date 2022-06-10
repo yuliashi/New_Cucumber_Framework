@@ -1,0 +1,64 @@
+{
+  "uid" : "98068494e3734c88",
+  "name" : "When I enter the customer id as 100",
+  "fullName" : "Verify customer is deleted msg is displayed on guru99.When I enter the customer id as 100",
+  "historyId" : "f25fd538abfd789ab48e785f477026b6",
+  "time" : {
+    "start" : 1653523433809,
+    "stop" : 1653523433809,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Other Automation scenarios"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter the customer id as 100"
+  }, {
+    "name" : "package",
+    "value" : "Verify customer is deleted msg is displayed on guru99"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98068494e3734c88.json",
+  "parameterValues" : [ ]
+}

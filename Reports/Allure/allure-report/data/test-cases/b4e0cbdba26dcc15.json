@@ -1,0 +1,66 @@
+{
+  "uid" : "b4e0cbdba26dcc15",
+  "name" : "Then I verify Facebook Homepage is displayed",
+  "fullName" : "Verify user can login with valid credentials.Then I verify Facebook Homepage is displayed",
+  "historyId" : "157b8d72248b8e67a02a09fe6ead4134",
+  "time" : {
+    "start" : 1653523343762,
+    "stop" : 1653523343763,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I verify Facebook Homepage is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4e0cbdba26dcc15.json",
+  "parameterValues" : [ ]
+}

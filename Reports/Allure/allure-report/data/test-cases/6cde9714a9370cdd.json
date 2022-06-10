@@ -1,0 +1,66 @@
+{
+  "uid" : "6cde9714a9370cdd",
+  "name" : "When I click on Create New Account button",
+  "fullName" : "Verify user can sign up.When I click on Create New Account button",
+  "historyId" : "c8c8f04eba8844ed16185a4cb88980d4",
+  "time" : {
+    "start" : 1653523373536,
+    "stop" : 1653523373536,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can sign up"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can sign up"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can sign up"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on Create New Account button"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can sign up"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6cde9714a9370cdd.json",
+  "parameterValues" : [ ]
+}

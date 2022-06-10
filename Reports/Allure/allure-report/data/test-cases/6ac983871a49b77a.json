@@ -1,0 +1,64 @@
+{
+  "uid" : "6ac983871a49b77a",
+  "name" : "And I click on login button",
+  "fullName" : "Verify user cannot login with invalid credentials | $%^&*( | abcd@1234 |.And I click on login button",
+  "historyId" : "240ad2f1939d9dffa1b4d99ff001a2ce",
+  "time" : {
+    "start" : 1653523280932,
+    "stop" : 1653523280932,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user cannot login with invalid credentials | $%^&*( | abcd@1234 |"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user cannot login with invalid credentials | $%^&*( | abcd@1234 |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user cannot login with invalid credentials | $%^&*( | abcd@1234 |"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on login button"
+  }, {
+    "name" : "package",
+    "value" : "Verify user cannot login with invalid credentials | $%^&*( | abcd@1234 |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ac983871a49b77a.json",
+  "parameterValues" : [ ]
+}

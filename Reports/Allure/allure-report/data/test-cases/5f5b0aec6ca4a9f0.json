@@ -1,0 +1,66 @@
+{
+  "uid" : "5f5b0aec6ca4a9f0",
+  "name" : "Scenario: User cannot submit form without entering all mandatory field",
+  "fullName" : "User cannot submit form without entering all mandatory field.Scenario: User cannot submit form without entering all mandatory field",
+  "historyId" : "a4eb38624ed7c7bdbe47ba92e2def40c",
+  "time" : {
+    "start" : 1653523416196,
+    "stop" : 1653523416196,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "testClass",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "testMethod",
+    "value" : "Scenario: User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "package",
+    "value" : "User cannot submit form without entering all mandatory field"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f5b0aec6ca4a9f0.json",
+  "parameterValues" : [ ]
+}

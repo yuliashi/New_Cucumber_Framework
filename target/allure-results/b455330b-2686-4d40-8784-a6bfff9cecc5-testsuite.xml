@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1653523415409" stop="1653523416196" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User cannot submit form without entering all mandatory field</name>
+    <title>User cannot submit form without entering all mandatory field</title>
+    <test-cases>
+        <test-case start="1653523415411" stop="1653523415411" status="passed">
+            <name>Given I am on facebook landing page</name>
+            <title>Given I am on facebook landing page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523415413" stop="1653523415413" status="pending">
+            <name>When I click on Create New Account button</name>
+            <title>When I click on Create New Account button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523415416" stop="1653523415416" status="pending">
+            <name>And I fill form except gender</name>
+            <title>And I fill form except gender</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523415417" stop="1653523415417" status="pending">
+            <name>And I click on the submit button</name>
+            <title>And I click on the submit button</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523415421" stop="1653523415421" status="pending">
+            <name>Then I verify error is displayed</name>
+            <title>Then I verify error is displayed</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653523416196" stop="1653523416196" status="pending">
+            <name>Scenario: User cannot submit form without entering all mandatory field</name>
+            <title>Scenario: User cannot submit form without entering all mandatory field</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="7858@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="User cannot submit form without entering all mandatory field"/>
+        <label name="feature" value="Facebook Sign Up"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "StaleElementReferenceException: The element reference of <span class=\"summary swap\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.37.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilefu5PVA, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=1068.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd286f203\nCommand duration or timeout: 0 milliseconds",
+      "children" : [ {
+        "name" : "Then I verify forecast is displayed for full address",
+        "uid" : "a9bf6af012b6be1b",
+        "parentUid" : "07e17d5261726b3af73a9eb6ae881e31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653523265722,
+          "stop" : 1653523265738,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07e17d5261726b3af73a9eb6ae881e31"
+    }, {
+      "name" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.5.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofileCSYP36, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=4552.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX58dd7520\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "children" : [ {
+        "name" : "Then I verify error is displayed",
+        "uid" : "fb01462cd426b9cb",
+        "parentUid" : "889aed263a9911fe3b4b9791b1bd4af8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653523281534,
+          "stop" : 1653523281536,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "889aed263a9911fe3b4b9791b1bd4af8"
+    }, {
+      "name" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.43.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofile9kAcNx, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=6536.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd6e40f8d\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "children" : [ {
+        "name" : "Then I verify error is displayed",
+        "uid" : "efde94d35e0ed8ad",
+        "parentUid" : "5fa4579678e8db405dfc11bb71065239",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653523302299,
+          "stop" : 1653523302301,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5fa4579678e8db405dfc11bb71065239"
+    }, {
+      "name" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.100.53.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilep3X3fN, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=2436.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX63d7676f\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "children" : [ {
+        "name" : "Then I verify error is displayed",
+        "uid" : "771f0a0a46f5b483",
+        "parentUid" : "f4ecacd1d2f2f30eb6c134870e45b00b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653523323101,
+          "stop" : 1653523323102,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4ecacd1d2f2f30eb6c134870e45b00b"
+    }, {
+      "name" : "NoSuchElementException: Unable to locate element: //div[contains(text(),'or mobile number you entered isn')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.27.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofilejx4H2b, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=5364.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX8bef3694\n*** Element info: {Using=xpath, value=//div[contains(text(),'or mobile number you entered isn')]}\nCommand duration or timeout: 0 milliseconds",
+      "children" : [ {
+        "name" : "Then I verify error is displayed",
+        "uid" : "3b8aa3fedaf05a9f",
+        "parentUid" : "3df95a52dc834e907a5c651c2bf396a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653523359260,
+          "stop" : 1653523359261,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3df95a52dc834e907a5c651c2bf396a2"
+    }, {
+      "name" : "WebDriverException: Element <input name=\"submit\" type=\"submit\"> is not clickable at point (483,669) because another element <iframe id=\"ccpa-consent-notice\" class=\"faktor-iframe-wrapper\" src=\"https://ccpa-manager.privacymanager.io/latest/index.html#/notice\"> obscures it\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'SAUCE-WIN10', ip: '10.119.83.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\sauce\\AppData\\Local\\Temp\\rust_mozprofileycyeOv, moz:geckodriverVersion=0.30.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, proxy=Proxy(), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=100.0, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=6896.0, browserName=firefox, moz:buildID=20220428192727, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]\nSession ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX98253702\nCommand duration or timeout: 0 milliseconds",
+      "children" : [ {
+        "name" : "And I click on Submit button",
+        "uid" : "2c2128311681783b",
+        "parentUid" : "50dd8ec4e6def29f6a7a067fdf979024",
+        "status" : "broken",
+        "time" : {
+          "start" : 1653523434793,
+          "stop" : 1653523434795,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50dd8ec4e6def29f6a7a067fdf979024"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

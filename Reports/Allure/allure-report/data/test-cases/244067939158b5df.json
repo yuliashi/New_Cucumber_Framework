@@ -1,0 +1,64 @@
+{
+  "uid" : "244067939158b5df",
+  "name" : "When I search temperature using 98 11th Ave, New York, NY",
+  "fullName" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |.When I search temperature using 98 11th Ave, New York, NY",
+  "historyId" : "8a880f9ab666b573d54fffe116543db3",
+  "time" : {
+    "start" : 1653093826707,
+    "stop" : 1653093826707,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "thread",
+    "value" : "21518@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I search temperature using 98 11th Ave, New York, NY"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can search temperature using <dataType> | full address | 98 11th Ave, New York, NY |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "244067939158b5df.json",
+  "parameterValues" : [ ]
+}

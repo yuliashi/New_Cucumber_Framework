@@ -1,0 +1,64 @@
+{
+  "uid" : "8e6d1dbfd5f85b2d",
+  "name" : "And I click on login button",
+  "fullName" : "Verify user cannot login with empty credentials.And I click on login button",
+  "historyId" : "83c916500dea342f7f3705d5d9dcc439",
+  "time" : {
+    "start" : 1653523358341,
+    "stop" : 1653523358341,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user cannot login with empty credentials"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user cannot login with empty credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user cannot login with empty credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I click on login button"
+  }, {
+    "name" : "package",
+    "value" : "Verify user cannot login with empty credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e6d1dbfd5f85b2d.json",
+  "parameterValues" : [ ]
+}

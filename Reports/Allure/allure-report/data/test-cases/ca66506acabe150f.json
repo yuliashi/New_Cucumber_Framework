@@ -1,0 +1,64 @@
+{
+  "uid" : "ca66506acabe150f",
+  "name" : "Given I am on darksky landing page",
+  "fullName" : "Verify user can search temperature using <dataType> | country name | Brazil |.Given I am on darksky landing page",
+  "historyId" : "e7ba5adbb0a05fed735b024ae1b11b65",
+  "time" : {
+    "start" : 1653523245949,
+    "stop" : 1653523245949,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on darksky landing page"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can search temperature using <dataType> | country name | Brazil |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca66506acabe150f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "816e501bd6d7ac25",
+  "name" : "Given I am on facebook landing page",
+  "fullName" : "Verify dob on sign up is current date.Given I am on facebook landing page",
+  "historyId" : "fc5b8cba3da4a5a590b95b0c5ab876cf",
+  "time" : {
+    "start" : 1653523388399,
+    "stop" : 1653523388399,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on facebook landing page"
+  }, {
+    "name" : "package",
+    "value" : "Verify dob on sign up is current date"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "816e501bd6d7ac25.json",
+  "parameterValues" : [ ]
+}

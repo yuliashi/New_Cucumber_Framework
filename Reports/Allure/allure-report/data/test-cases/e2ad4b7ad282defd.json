@@ -1,0 +1,66 @@
+{
+  "uid" : "e2ad4b7ad282defd",
+  "name" : "Scenario: Verify user can login with valid credentials",
+  "fullName" : "Verify user can login with valid credentials.Scenario: Verify user can login with valid credentials",
+  "historyId" : "bccf7708c2dc864b426ea0fe5df78cf5",
+  "time" : {
+    "start" : 1653523344267,
+    "stop" : 1653523344267,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Scenario: Verify user can login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Verify user can login with valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2ad4b7ad282defd.json",
+  "parameterValues" : [ ]
+}

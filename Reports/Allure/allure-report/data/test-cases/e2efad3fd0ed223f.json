@@ -1,0 +1,64 @@
+{
+  "uid" : "e2efad3fd0ed223f",
+  "name" : "And I enter abcdNoPwd in login password",
+  "fullName" : "Verify user cannot login with invalid credentials | var@test.com | abcdNoPwd |.And I enter abcdNoPwd in login password",
+  "historyId" : "93268c7f0544222e9f4a65277e6e6371",
+  "time" : {
+    "start" : 1653523316208,
+    "stop" : 1653523316208,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify user cannot login with invalid credentials | var@test.com | abcdNoPwd |"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify user cannot login with invalid credentials | var@test.com | abcdNoPwd |"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify user cannot login with invalid credentials | var@test.com | abcdNoPwd |"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I enter abcdNoPwd in login password"
+  }, {
+    "name" : "package",
+    "value" : "Verify user cannot login with invalid credentials | var@test.com | abcdNoPwd |"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2efad3fd0ed223f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "7a0419d741af6e7b",
+  "name" : "Scenario: Verify no gender is selected on Sign Up form",
+  "fullName" : "Verify no gender is selected on Sign Up form.Scenario: Verify no gender is selected on Sign Up form",
+  "historyId" : "f2c7d231e9434f6464cdfc5f589b4159",
+  "time" : {
+    "start" : 1653523402279,
+    "stop" : 1653523402279,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Facebook Sign Up"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Deepaks-MBP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "thread",
+    "value" : "7858@Deepaks-MBP.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Scenario: Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "package",
+    "value" : "Verify no gender is selected on Sign Up form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a0419d741af6e7b.json",
+  "parameterValues" : [ ]
+}

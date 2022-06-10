@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1653093825659" stop="1653093826987" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can search temperature using &lt;dataType&gt; | full address | 98 11th Ave, New York, NY |</name>
+    <title>Verify user can search temperature using &lt;dataType&gt; | full address | 98 11th Ave, New York, NY |</title>
+    <test-cases>
+        <test-case start="1653093825665" stop="1653093825666" status="passed">
+            <name>Given I am on darksky landing page</name>
+            <title>Given I am on darksky landing page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="21518@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653093826707" stop="1653093826707" status="passed">
+            <name>When I search temperature using 98 11th Ave, New York, NY</name>
+            <title>When I search temperature using 98 11th Ave, New York, NY</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="21518@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1653093826764" stop="1653093826765" status="passed">
+            <name>Then I verify forecast is displayed for full address</name>
+            <title>Then I verify forecast is displayed for full address</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Deepaks-MBP"/>
+                <label name="thread" value="21518@Deepaks-MBP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can search temperature using &lt;dataType&gt; | full address | 98 11th Ave, New York, NY |"/>
+        <label name="feature" value="Search"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

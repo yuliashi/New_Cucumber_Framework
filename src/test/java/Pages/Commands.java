@@ -35,6 +35,33 @@ public class Commands {
         return element;
     }
 
+    public static WebElement webAction(By locator) {
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(MyDriver.getDriver())
+                .withTimeout(Duration.ofSeconds(5))
+                .pollingEvery(Duration.ofMillis(250))
+                .ignoring(NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class)
+                .ignoring(ElementClickInterceptedException.class)
+                .withMessage(
+                        "Webdriver waited for 15 seconds but still could not find the element therefore Timeout Exception has been thrown");
+
+        WebElement element = wait.until(new java.util.function.Function<WebDriver, WebElement>() {          public WebElement apply(WebDriver driver) {
+            return driver.findElement(locator);
+        }
+        });
+        return element;
+    }
+
+    public void switchToNewWindow () {
+        String originalWindow = MyDriver.getDriver().getWindowHandle();
+        for (String windowHandle : MyDriver.getDriver().getWindowHandles()) {
+            if (!originalWindow.contentEquals(windowHandle)) {
+                MyDriver.getDriver().switchTo().window(windowHandle);
+                break;
+            }
+        }
+    }
+
     // Create a local method to find WebElements
     public List<WebElement> findWebElements(By locator) {
         return MyDriver.getDriver().findElements(locator);
@@ -42,20 +69,31 @@ public class Commands {
 
     // Create a local method to type in the webElement
     public void type(By locator, String data) {
-        findWebElement(locator).sendKeys(data);
+        findWebElementWithWait(locator).sendKeys(data);
     }
 
     public String getTextOfWebElement(By locator) {
         return findWebElement(locator).getText();
     }
 
-    public String getAttributeValueFromWebElement(By locator, String attribute) {
-        return findWebElement(locator).getText();
+    public int getAttributeValueAsInt (By locator, String attribute) {
+        String attributeValue = findWebElement(locator).getAttribute(attribute);
+        return Integer.parseInt(attributeValue);
+
     }
 
     // Create a local method to click on the webElement
     public void clickIt(By locator) {
-        findWebElement(locator).click();
+        findWebElementWithWait(locator).click();
+    }
+
+    public void clickOn (By locator) {
+        try {
+            webAction(locator).click();
+        } catch (NoSuchElementException e) {
+            e.printStackTrace();
+        }
+
     }
 
     // Create a local method to clear input from a webElement
@@ -113,8 +151,13 @@ public class Commands {
     }
 
     // custom method to get all window-handles
-    public Set<String> getAllWindowHandles() {
-        return MyDriver.getDriver().getWindowHandles();
+    public int getTheNumberOfWindowHandles() {
+        return MyDriver.getDriver().getWindowHandles().size();
+    }
+
+    public String getPageHeaderOf (By locator) {
+        return findWebElementWithWait(locator).getText();
+
     }
 
     // custom method to select date from Calendar

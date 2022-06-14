@@ -42,6 +42,14 @@ public class TC18SD {
     public void isTotalGuestsCorrect () {
         Assert.assertTrue(lpage.isNumberOfTravelersCorrect());
     }
+
+    @Then("^I verify Number of Guests is equal to adults and children$")
+    public void isTotalGuestsCorrect1 () {
+        Assert.assertTrue(lpage.isNumberOfTravelersCorrect1());
+    }
+
+
+
     @Then("^Destination Error message is displayed$")
     public void destinationErrorIsDisplayed () {
         Assert.assertTrue(lpage.isDestinationErrorDisplayed());

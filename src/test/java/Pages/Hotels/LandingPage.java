@@ -11,6 +11,8 @@ import java.util.List;
 
 public class LandingPage extends Commands {
 
+    private int numTravelers = 0;
+
     //Travelers locators
     By mainSearchLocator = By.xpath("//button[@data-testid = 'submit-button']");
     By destinationErrorLocator = By.id("location-field-destination-input-error");
@@ -147,6 +149,15 @@ public class LandingPage extends Commands {
         return (totalTravelers == (numOfAdultsDisplayed + numOfChildrenDisplayed));
     }
 
+    public boolean isNumberOfTravelersCorrect1 () {
+        int numOfChildrenDisplayed = getAttributeValueAsInt(numOfChildrenDisplayedLocator, "value");
+        int numOfAdultsDisplayed = getAttributeValueAsInt(numOfAdultsDisplayedLocator, "value");
+        int totalTravelers = findNumberOfTravelersDisplayed(travelersLocator);
+
+        return (totalTravelers == numTravelers);
+    }
+
+
     public boolean isDestinationErrorDisplayed () {
         return isElementDisplayed(destinationErrorLocator);
     }
@@ -159,12 +170,14 @@ public class LandingPage extends Commands {
         for (int i=1; i<=num; i++) {
             clickOn(increaseChildCountBtnLocator);
         }
+        numTravelers += num;
     }
 
     public void increaseNumberOfAdults (int num) {
         for (int i=1; i<=num-2; i++) {
             clickOn(increaseAdultCountLocator);
         }
+        numTravelers += num;
     }
 
     public boolean isAgeMessageDisplayed () {

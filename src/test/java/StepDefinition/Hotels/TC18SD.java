@@ -38,14 +38,10 @@ public class TC18SD {
     public void clickOnGuestsDone () {
         lpage.clickOnGuestsDoneBtn();
     }
-    @Then("^I verify Number of Guests is equal to adults and children$")
+
+    @Then("^I verify Number of Guests is equal to (.+)$")
     public void isTotalGuestsCorrect () {
         Assert.assertTrue(lpage.isNumberOfTravelersCorrect());
-    }
-
-    @Then("^I verify Number of Guests is equal to adults and children$")
-    public void isTotalGuestsCorrect1 () {
-        Assert.assertTrue(lpage.isNumberOfTravelersCorrect1());
     }
 
 

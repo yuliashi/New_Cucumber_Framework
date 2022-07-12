@@ -1,4 +1,5 @@
 Feature: Number of Guests
+
 Background:
 Given I am on hotels landing page
 
@@ -9,5 +10,5 @@ Given I am on hotels landing page
     And I select age of child1 as 4
     And I select age of child2 as Under 1
     And I click on GuestsDone button
-    Then I verify Number of Guests is equal to adults and children
+    Then I verify Number of Guests is equal to 8
 

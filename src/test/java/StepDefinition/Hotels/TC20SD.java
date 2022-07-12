@@ -84,7 +84,6 @@ public class TC20SD {
 
     @When("^I click on SubmitFeedback button$")
     public void clickSubmitFeedback () {
-        lpage.switchToNewWindow();
         fpage.clickOnSubmitFeedbackBtn();
     }
 

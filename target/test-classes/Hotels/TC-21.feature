@@ -1,4 +1,5 @@
 Feature: Invalid Credentials
+
   Background:
     Given I am on hotels landing page
 

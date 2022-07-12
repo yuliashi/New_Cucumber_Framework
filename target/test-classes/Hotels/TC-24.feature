@@ -1,4 +1,5 @@
-Feature: Invalid Credentials
+Feature: Feedback Screen Empty Submission
+
   Background:
     Given I am on hotels landing page
 

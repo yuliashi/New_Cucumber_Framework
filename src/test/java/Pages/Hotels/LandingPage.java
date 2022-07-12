@@ -2,10 +2,15 @@ package Pages.Hotels;
 
 import Helper.DateLib;
 import Pages.Commands;
+import Web.MyDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -14,7 +19,7 @@ public class LandingPage extends Commands {
     private int numTravelers = 0;
 
     //Travelers locators
-    By mainSearchLocator = By.xpath("//button[@data-testid = 'submit-button']");
+    By mainSearchLocator = By.id("submit_button");
     By destinationErrorLocator = By.id("location-field-destination-input-error");
     By travelersLocator = By.xpath("//button[@data-testid = 'travelers-field-trigger']");
     By numOfAdultsDisplayedLocator = By.xpath("//input[@id = 'adult-input-0']");
@@ -25,6 +30,8 @@ public class LandingPage extends Commands {
     By enterAge1DDLocator = By.xpath("//select[@id = 'child-age-input-0-0']");
     By enterAge2DDLocator = By.xpath("//select[@id = 'child-age-input-0-1']");
     By guestsDoneBtnLocator = By.xpath("//button[@data-testid = 'guests-done-button']");
+
+    By star5RatingHotelSearchLocator = By.xpath("//input[@id = 'star-4']");
 
     //Policy locators
     By tAndCPageTitle = By.xpath("//div[@id = 'termsandconditions']/h1");
@@ -40,18 +47,29 @@ public class LandingPage extends Commands {
     By emailFieldLocator = By.id("loginFormEmailInput");
     By passwordFieldLocator = By.id("loginFormPasswordInput");
 
+    //Other Links
     By feedbackLinkLocator = By.xpath("//div[@class = 'header-guest-heading']/following-sibling::div/a[4]");
-
+    By moreTravelDDLocator = By.xpath("//nav[@id = 'header-toolbar-nav']/div/button");
+    By dealsLinkLocator = By.xpath("//nav[@id = 'header-toolbar-nav']/div/button/following-sibling::div/div/a[1]");
 
     //Destination locators
     By goingToLocator = By.xpath("//button[@aria-label = 'Going to']");
     By boraBoraLeewardIslandOptionLocator = By.xpath("//div[@class = 'uitk-typeahead-results']/ul/li/button[@aria-label = 'Bora Bora Leeward Islands, French Polynesia']");
-    By destinationInputLocator = By.id("location-field-destination");
-    By destinationSuggestions = By.xpath("//div[@class='uitk-typeahead-results']//div[contains(@class,'truncat') and not(contains(@class,'uitk'))]");
+    By destinationInputLocator = By.xpath("//input[@data-stid = 'destination_form_field-menu-input']");
+    By manhattanNYOptionLocator = By.xpath("//button[contains (@aria-label, 'Manhattan New York') and not(contains(@aria-label, 'Lower'))]");
+    By destinationSuggestionsMainText = By.xpath("//button[@data-stid = 'hotels-destination-result-item-button']/div/div/span/strong");
+    By destinationSuggestionsSubtext = By.xpath("//div[@class='uitk-typeahead-results']//div[contains(@class,'is-subText truncate') and not(contains(@class,'uitk'))]");
+    String frameElements = "//ul[@data-stid = 'destination_form_field-results']/li[contains(@class, 'subtext')]";
+    String elementButton = "/button";
+    By autoSuggestionFrameElementsLocator = By.xpath("//ul[@data-stid = 'destination_form_field-results']/li[contains(@class, 'subtext')]/button");
 
+    By sortByDDLocator = By.id("sort");
+
+    By elementInSearchResultRatingLocator = By.xpath("//section[@data-stid = 'section-results']/ol/li/div/div/div[contains (@class, 'content-section')]/div/div/div/span");
+    By elementInSearchResultPriceLocator = By.xpath("//div[@data-test-id = 'price-summary-message-line']/div/span/div");
 
     //Checkin/out locators
-    By checkInDateBoxLocator = By.id("d1-btn");
+    By checkInDateBoxLocator = By.id("date_form_field-btn");
     By checkOutDateBoxLocator = By.id("d2-btn");
     By checkInDisabledDatesLocator = By.xpath("//table[@class='uitk-date-picker-weeks']//button[@disabled]");
     By augFirst2022 = By.xpath("//button[@aria-label = 'Aug 1, 2022']");
@@ -74,12 +92,21 @@ public class LandingPage extends Commands {
         "//h2[text()='" + monthYear + "']/following-sibling::table//button[@data-day]"
         monthDates_1 + monthYear + monthDates_2
      */
+    public void clickMoreTravel () {
+        clickIt(moreTravelDDLocator);
+    }
+
+    public void clickDealsLink () {
+        clickIt(dealsLinkLocator);
+    }
 
 
     public void clickOnSearchBtn () {
         clickIt(mainSearchLocator);
     }
 
+
+    //Login page methods
     public void clickOnTravelersField () {
         clickIt(travelersLocator);
     }
@@ -106,6 +133,7 @@ public class LandingPage extends Commands {
 
     public void clickFeedbackLink () {
         clickItWithScroll(feedbackLinkLocator);
+        switchToNewWindow();
     }
 
     public void enterEmail (String email) {
@@ -146,14 +174,6 @@ public class LandingPage extends Commands {
         int numOfAdultsDisplayed = getAttributeValueAsInt(numOfAdultsDisplayedLocator, "value");
         int totalTravelers = findNumberOfTravelersDisplayed(travelersLocator);
 
-        return (totalTravelers == (numOfAdultsDisplayed + numOfChildrenDisplayed));
-    }
-
-    public boolean isNumberOfTravelersCorrect1 () {
-        int numOfChildrenDisplayed = getAttributeValueAsInt(numOfChildrenDisplayedLocator, "value");
-        int numOfAdultsDisplayed = getAttributeValueAsInt(numOfAdultsDisplayedLocator, "value");
-        int totalTravelers = findNumberOfTravelersDisplayed(travelersLocator);
-
         return (totalTravelers == numTravelers);
     }
 
@@ -163,19 +183,19 @@ public class LandingPage extends Commands {
     }
 
     public void clickToSelectNumberOfTravelers () {
-        clickOn(travelersLocator);
+        clickIt(travelersLocator);
     }
 
     public void increaseNumberOfChildren (int num) {
         for (int i=1; i<=num; i++) {
-            clickOn(increaseChildCountBtnLocator);
+            clickIt(increaseChildCountBtnLocator);
         }
         numTravelers += num;
     }
 
     public void increaseNumberOfAdults (int num) {
         for (int i=1; i<=num-2; i++) {
-            clickOn(increaseAdultCountLocator);
+            clickIt(increaseAdultCountLocator);
         }
         numTravelers += num;
     }
@@ -223,9 +243,84 @@ public class LandingPage extends Commands {
         type(destinationInputLocator, destination);
     }
 
-    public void selectFromDestinationSuggestion(String userChoice) {
-        selectFromSuggestions(destinationSuggestions, userChoice);
+    public void selectFromSuggestionsByText(By locator, String userSuggestion) {
+        List<WebElement> allSuggestionLabels = MyDriver.getDriver().findElements(locator);
+        for (WebElement suggestion : allSuggestionLabels) {
+            if(suggestion.getText().equalsIgnoreCase(userSuggestion)) {
+                suggestion.click();
+                break;
+            }
+
+        }
     }
+
+    public void selectFromSuggestionsByValue(String userSuggestion) {
+        List<WebElement> allSuggestionButtons = MyDriver.getDriver().findElements(autoSuggestionFrameElementsLocator);
+        for (WebElement suggestion : allSuggestionButtons) {
+            if(suggestion.getAttribute("aria-label").equalsIgnoreCase(userSuggestion)) {
+                suggestion.click();
+                break;
+            }
+
+        }
+    }
+
+
+
+    public void selectManhattanOption () {
+        clickIt(manhattanNYOptionLocator);
+    }
+
+    public void select5starRating () {
+        clickIt(star5RatingHotelSearchLocator);
+    }
+
+    public void selectFromSortByDD (String option) {
+        selectInDropdown(sortByDDLocator, option);
+    }
+
+    public boolean isHotelRatingInSearchResultCorrect (String rating) {
+        List<WebElement> hotelsInSearch = findWebElements(elementInSearchResultRatingLocator);
+        List<WebElement> matchingElements = new ArrayList<>();
+        for (WebElement element : hotelsInSearch) {
+            if (element.getText().equalsIgnoreCase(rating)){
+                matchingElements.add(element);
+            }
+        }
+
+        System.out.println("Number of elements in search is " +
+                hotelsInSearch.size() +
+                " and number of elements matching criteria is " +
+                 matchingElements.size());
+
+        return (hotelsInSearch.size() == matchingElements.size());
+    }
+
+    public List<Integer> getPriceList () {
+        List<WebElement> eList = findWebElements(elementInSearchResultPriceLocator);
+        List<Integer> priceList = new ArrayList<>();
+            for(WebElement e : eList) {
+                String[] array = e.getText().split("\\$");
+                priceList.add(Integer.valueOf(array[1]));
+            }
+            return priceList;
+
+    }
+
+
+
+     public boolean arePricesOrderedByAsc () {
+        List<Integer> pricesBeforeSorting = getPriceList();
+        Collections.sort(pricesBeforeSorting);
+        Select sortBy = new Select(findWebElementWithWait(sortByDDLocator));
+        sortBy.selectByVisibleText("Price");
+        List<Integer> pricesAfterSorting = getPriceList();
+
+         return pricesBeforeSorting.equals(pricesAfterSorting);
+
+    }
+
+
 
     public void goToMonth(String monthYear) {
         for (int i=0 ; i<12 ; i++) {

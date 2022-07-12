@@ -16,16 +16,7 @@ public class SearchStays {
         lpage.selectDateInJune2022("10");
     }
 
-    @Test
-    public void selectFromSuggestions() {
-        MyDriver.launchUrlOnNewWindow("https://www.hotels.com");
 
-        LandingPage lpage = new LandingPage();
-
-        lpage.enterDestination("new");
-
-        lpage.selectFromDestinationSuggestion("Manhattan");
-    }
 
 
     @Test

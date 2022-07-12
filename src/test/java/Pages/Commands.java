@@ -23,6 +23,7 @@ public class Commands {
                 .withTimeout(Duration.ofSeconds(30))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoAlertPresentException.class)
+                .ignoring(ElementNotInteractableException.class)
                 .ignoring(StaleElementReferenceException.class)
                 .ignoring(ElementClickInterceptedException.class)
                 .withMessage("Fluent wait timeout, waited for 30-seconds");
@@ -50,6 +51,10 @@ public class Commands {
         }
         });
         return element;
+    }
+
+    public void goBack () {
+        MyDriver.getDriver().navigate().back();
     }
 
     public void switchToNewWindow () {
@@ -167,16 +172,6 @@ public class Commands {
             String dateValue = dateElement.getAttribute("data-day");
             if (dateValue.equals(userDate)) {
                 dateElement.click();
-                break;
-            }
-        }
-    }
-
-    public void selectFromSuggestions(By locator, String userSuggestion) {
-        List<WebElement> allSuggestions = MyDriver.getDriver().findElements(locator);
-        for (WebElement suggestion : allSuggestions) {
-            if(suggestion.getText().equalsIgnoreCase(userSuggestion)) {
-                suggestion.click();
                 break;
             }
         }

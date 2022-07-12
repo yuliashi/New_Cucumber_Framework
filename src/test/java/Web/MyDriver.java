@@ -5,6 +5,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -17,7 +18,7 @@ public class MyDriver {
     private static WebDriver driver;
 
 
-    public static void launchUrlOnNewWindow(String url) {
+    public static void launchUrlOnNewWindow1(String url) {
         PropReader pReader = new PropReader();
         switch (pReader.getRunOn().toLowerCase()) {
             case "sauce":
@@ -58,7 +59,22 @@ public class MyDriver {
 //        driver.get("https://www.facebook.com/");
 //    }
 
-    @After
+    public static void launchUrlOnNewWindow(String url) {
+        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+        ChromeOptions chromeoptions = new ChromeOptions();
+        chromeoptions.addArguments("--lang=en");
+        driver = new ChromeDriver(chromeoptions);
+        driver.get(url);
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
     public static void quitWindows() {
         if (driver != null) {
             driver.quit();

@@ -1,4 +1,5 @@
 Feature: Past dates are disabled
+
   Background:
     Given I am on hotels landing page
 

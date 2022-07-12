@@ -13,10 +13,6 @@ public class TC19SD {
         lpage.enterDestination(destination);
     }
 
-    @When("^I select (.+) from auto suggestion$")
-    public void selectFromAutoSuggestion (String selection) {
-        lpage.selectFromDestinationSuggestion(selection);
-    }
 
      @When("^I select (.+) as Check-in$")
     public void selectCheckinDate (String date_Month_Year) {

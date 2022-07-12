@@ -1,4 +1,5 @@
 Feature: Terms and Conditions and Privacy Statement
+
   Background:
     Given I am on hotels landing page
 
